@@ -41,11 +41,9 @@ dijkstra(c)
 city_num = 0
 max_time = 0
 
-
 for d in distance:
     if d != INF:
         city_num += 1
         max_time = max(max_time, d)
 
-
-print(city_num-1, max_time)
+print(city_num - 1, max_time)
